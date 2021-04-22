@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xregistry-viewer", "xregistry-viewer\xregistry-viewer.csproj", "{50D1CFFA-AC2E-438B-93FC-4AE0853327BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XRegistryFormat", "XRegistry\XRegistryFormat.csproj", "{0D504EE1-8B8B-4DC9-984F-76E9EC6BB5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{52AC7E04-C40E-4EA9-BD00-4DFE10748062}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50D1CFFA-AC2E-438B-93FC-4AE0853327BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50D1CFFA-AC2E-438B-93FC-4AE0853327BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50D1CFFA-AC2E-438B-93FC-4AE0853327BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50D1CFFA-AC2E-438B-93FC-4AE0853327BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D504EE1-8B8B-4DC9-984F-76E9EC6BB5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D504EE1-8B8B-4DC9-984F-76E9EC6BB5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D504EE1-8B8B-4DC9-984F-76E9EC6BB5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D504EE1-8B8B-4DC9-984F-76E9EC6BB5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AC7E04-C40E-4EA9-BD00-4DFE10748062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AC7E04-C40E-4EA9-BD00-4DFE10748062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AC7E04-C40E-4EA9-BD00-4DFE10748062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AC7E04-C40E-4EA9-BD00-4DFE10748062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
